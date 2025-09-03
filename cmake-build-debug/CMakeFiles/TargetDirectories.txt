@@ -1,0 +1,3 @@
+C:/Users/danie/OneDrive/Escritorio/UTEC/2025-2/Algoritmos/ForwardListHomework/cmake-build-debug/CMakeFiles/ForwardListHomework.dir
+C:/Users/danie/OneDrive/Escritorio/UTEC/2025-2/Algoritmos/ForwardListHomework/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/danie/OneDrive/Escritorio/UTEC/2025-2/Algoritmos/ForwardListHomework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
