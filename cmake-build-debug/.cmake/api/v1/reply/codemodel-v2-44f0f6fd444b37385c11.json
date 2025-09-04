@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/danie/OneDrive/Escritorio/UTEC/2025-2/Algoritmos/ForwardListHomework/cmake-build-debug",
-		"source" : "C:/Users/danie/OneDrive/Escritorio/UTEC/2025-2/Algoritmos/ForwardListHomework"
+		"build" : "C:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug",
+		"source" : "C:/Users/valma/Downloads/aed/AED_HW1"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

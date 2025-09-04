@@ -23,12 +23,16 @@ public:
     }
 
     T front() {
-        if (empty()){return nullptr;}
+        if (empty()){
+            throw std::out_of_range("List is empty");
+    }
         return head->data;
     }
 
     T back() {
-        if (empty()){return nullptr;}
+        if (empty()){
+            throw std::out_of_range("List is empty");
+        }
 
         if (head->next == nullptr){return head->data;}
 
@@ -58,7 +62,9 @@ public:
     }
 
     T pop_front() {
-        if(empty()){return nullptr;}
+        if(empty()) {
+            throw std::out_of_range("List is empty");
+        }
 
         Node<T>* temp = head;
         head = head->next;
@@ -68,7 +74,9 @@ public:
     }
 
     T pop_back() {
-        if (empty()){return nullptr;}
+        if (empty()) {
+            throw std::out_of_range("List is empty");
+        }
 
         if (head->next == nullptr) {
             T deleteNode = head->data;
@@ -99,9 +107,16 @@ public:
     }
 
     T operator[](const int position) { //revisar
-        if (empty() || position < 0 || position >= size()) {
-            return "Not found";
+        if(empty()) {
+            throw std::out_of_range("List is empty");
         }
+        if(position<0) {
+            throw std::out_of_range("Negative index");
+        }
+        if(position>=size()) {
+            throw std::out_of_range("Indez out of range");
+        }
+
         Node<T>* temp = head;
         int i = 0;
         while (i <= position) {
