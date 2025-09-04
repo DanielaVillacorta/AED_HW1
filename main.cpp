@@ -81,6 +81,7 @@ public:
         if (head->next == nullptr) {
             T deleteNode = head->data;
             delete head;
+            head = nullptr;
             return deleteNode;
         }
 
