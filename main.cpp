@@ -52,13 +52,13 @@ public:
     void push_back(T Data) {
         Node<T>* newNode = new Node(Data);
         if (empty()){head = newNode;}
-
-        Node<T>* temp = head;
-        while (temp->next != nullptr) {
-            temp = temp->next;
+        else {
+            Node<T>* temp = head;
+            while (temp->next != nullptr) {
+                temp = temp->next;
+            }
+            temp->next = newNode;
         }
-        temp->next = newNode;
-        newNode->next = nullptr;
     }
 
     T pop_front() {
