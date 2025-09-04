@@ -56,7 +56,7 @@ public:
 
         Node<T>* temp = head;
         head = head->next;
-        int deleteNode = temp->data;
+        T deleteNode = temp->data;
         delete temp;
         return deleteNode;
     }
@@ -65,7 +65,7 @@ public:
         if (head == nullptr){return nullptr;}
 
         if (head->next == nullptr) {
-            int deleteNode = head->data;
+            T deleteNode = head->data;
             delete head;
             return deleteNode;
         }
@@ -74,7 +74,7 @@ public:
         while (temp->next->next != nullptr) {
             temp = temp->next;
         }
-        int deleteNode = temp->next->data;
+        T deleteNode = temp->next->data;
         delete temp->next;
         temp->next = nullptr;
         return deleteNode;
