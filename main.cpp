@@ -15,14 +15,20 @@ class LinkedLists {
 public:
     LinkedLists():head(nullptr){};
 
-    T front() {
-        if (head == nullptr){return nullptr;}
+    bool empty() {
+        if (head == nullptr) {
+            return true;
+        }
+        return false;
+    }
 
+    T front() {
+        if (empty()){return nullptr;}
         return head->data;
     }
 
     T back() {
-        if (head == nullptr){return nullptr;}
+        if (empty()){return nullptr;}
 
         if (head->next == nullptr){return head->data;}
 
@@ -41,7 +47,7 @@ public:
 
     void push_back(T Data) {
         Node<T>* newNode = new Node(Data);
-        if (head == nullptr){head = newNode;}
+        if (empty()){head = newNode;}
 
         Node<T>* temp = head;
         while (temp->next != nullptr) {
@@ -52,7 +58,7 @@ public:
     }
 
     T pop_front() {
-        if(head == nullptr){return nullptr;}
+        if(empty()){return nullptr;}
 
         Node<T>* temp = head;
         head = head->next;
@@ -62,7 +68,7 @@ public:
     }
 
     T pop_back() {
-        if (head == nullptr){return nullptr;}
+        if (empty()){return nullptr;}
 
         if (head->next == nullptr) {
             T deleteNode = head->data;
@@ -80,21 +86,16 @@ public:
         return deleteNode;
     }
 
-    bool empty() {
-        if (head == nullptr) {
-            return true;
-        }
-        return false;
-    }
-
     int size() {
-        int i = 0;
+        if (empty()){return 0;}
+
+        int size = 1;
         Node<T>* temp = head;
         while (temp->next != nullptr) {
+            size++;
             temp = temp->next;
-            i++;
         }
-        return i;
+        return size;
     }
 
     T operator[](const int position) { //revisar
