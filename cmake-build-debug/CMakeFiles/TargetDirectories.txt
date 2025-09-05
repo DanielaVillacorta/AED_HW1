@@ -1,3 +1,3 @@
-C:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug/CMakeFiles/ForwardListHomework.dir
-C:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/marce/CLionProjects/practica_copa/AED_HW1/cmake-build-debug/CMakeFiles/ForwardListHomework.dir
+C:/Users/marce/CLionProjects/practica_copa/AED_HW1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/marce/CLionProjects/practica_copa/AED_HW1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

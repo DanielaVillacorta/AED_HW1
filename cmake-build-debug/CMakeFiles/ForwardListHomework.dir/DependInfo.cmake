@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/valma/Downloads/aed/AED_HW1/main.cpp" "CMakeFiles/ForwardListHomework.dir/main.cpp.obj" "gcc" "CMakeFiles/ForwardListHomework.dir/main.cpp.obj.d"
+  "C:/Users/marce/CLionProjects/practica_copa/AED_HW1/main.cpp" "CMakeFiles/ForwardListHomework.dir/main.cpp.obj" "gcc" "CMakeFiles/ForwardListHomework.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

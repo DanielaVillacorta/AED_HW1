@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stack>
 using namespace std;
 
 template <typename T>
@@ -25,7 +26,7 @@ public:
     T front() {
         if (empty()){
             throw std::out_of_range("List is empty");
-    }
+        }
         return head->data;
     }
 
@@ -133,6 +134,22 @@ public:
             head = head->next;
             delete temp;
         }
+    }
+
+    void reverse() {
+        Node<T>* antes = nullptr;
+        Node<T>* actual = head;
+        Node<T>* siguiente = nullptr;
+
+        while (actual != nullptr) {
+            siguiente = actual->next;
+            actual->next = antes;
+            antes = actual;
+            actual = siguiente;
+        }
+
+        head = antes;
+
     }
 };
 

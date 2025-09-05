@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug"
+			"value" : "c:/Users/marce/CLionProjects/practica_copa/AED_HW1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/marce/CLionProjects/practica_copa/AED_HW1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/valma/Downloads/aed/AED_HW1"
+			"value" : "C:/Users/marce/CLionProjects/practica_copa/AED_HW1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/valma/Downloads/aed/AED_HW1/cmake-build-debug"
+			"value" : "C:/Users/marce/CLionProjects/practica_copa/AED_HW1/cmake-build-debug"
 		},
 		{
 			"name" : "ForwardListHomework_IS_TOP_LEVEL",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/valma/Downloads/aed/AED_HW1"
+			"value" : "C:/Users/marce/CLionProjects/practica_copa/AED_HW1"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
