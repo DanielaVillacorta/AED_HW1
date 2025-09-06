@@ -170,6 +170,8 @@ public:
         Node <T>* sorted = head;
         Node <T>* unsorted = head->next;
 
+        head->next = nullptr;
+
         while(unsorted!=nullptr) {
             auto temp = unsorted->next;
             if(unsorted->data <= sorted->data) {
