@@ -151,6 +151,35 @@ public:
         head = antes;
 
     }
+
+    void sortInsert(Node<T>* sorted, Node<T>* unsorted) {
+        if(sorted->next == nullptr) {
+            sorted->next = unsorted;
+            unsorted->next = nullptr;
+        }else {
+            if(unsorted->data <= sorted->next->data) {
+                unsorted->next = sorted->next;
+                sorted->next = unsorted;
+            }else {
+                sortInsert(sorted->next, unsorted);
+            }
+        }
+    }
+
+    void sort() {
+        Node <T>* sorted = head;
+        Node <T>* unsorted = head->next;
+
+        while(unsorted!=nullptr) {
+            auto temp = unsorted->next;
+            if(unsorted->data <= sorted->data) {
+                unsorted->next = sorted;
+                sorted = unsorted;
+            }else{sortInsert(sorted, unsorted);}
+            unsorted = temp;
+        }
+        head = sorted;
+    }
 };
 
 int main() {
